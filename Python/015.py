@@ -1,0 +1,5 @@
+print('Exercício Python #015 - Aluguel de Carros')
+a8 = float(input('Quantos dias o carro ficou alugado? '))
+b8 = float(input('Quantos Km ele andou? '))
+c8 =  (a8 * 60) + (b8 * 0.15)
+print(' Sendo {:.0f} dias e {} Km rodados, o valor do aluguel será R$ {}'.format(a8, b8, c8))

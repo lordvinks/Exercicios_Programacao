@@ -1,0 +1,7 @@
+print('Exercício Python #022 - Analisador de Textos')
+nome = str(input('Digite o seu nome: ')).strip()
+print('Análise...')
+print('Seu nome em MAIÚSCULA é {}'.format(nome.upper()))
+print('Seu nome em minúscula é {}'.format(nome.lower()))
+print('Seu nome possui {} letras'.format(len(nome) - nome.count(' ')))
+print('O seu primeiro nome possui {} letras'.format(nome.find(' ')))
