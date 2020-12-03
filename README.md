@@ -1,5 +1,5 @@
 # EXERCÍCIOS
 
-  JAVA
-  PYTHON
+  - JAVA
+  - PYTHON
   
