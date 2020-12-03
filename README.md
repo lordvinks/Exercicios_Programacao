@@ -1,4 +1,4 @@
-# ExERCÍCIOS
+# EXERCÍCIOS
 
   JAVA
   PYTHON
