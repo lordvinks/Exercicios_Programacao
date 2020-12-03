@@ -1,3 +1,5 @@
-# Aulas de Java Básico
+# ExERCÍCIOS
 
-  Exercícios
+  JAVA
+  PYTHON
+  
