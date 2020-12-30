@@ -1,7 +1,5 @@
 print(' \033[36;40mExercício Python #071 - Simulador de Caixa Eletrônico\033[m')
 
-from math import floor
-
 while True:
     #Iniciando variáveis
     unidade = dezena = centena = milhar = 0
