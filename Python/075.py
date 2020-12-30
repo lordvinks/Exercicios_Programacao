@@ -13,7 +13,7 @@ posicaoTres = 'N/A'
 
 #Vendo quantas vezes o 3 aparece
 if numeros.count(3) > 0:
-    posicaoTres = numeros.index(3)
+    posicaoTres = numeros.index(3) + 1
 
 #Verificando se número é par
 for num in numeros:
