@@ -18,7 +18,10 @@ print('=-=' * 18)
 
 print('\nCLASSIFICAÇÃO DOS TIMES DO BRASILEIRÃO 2020-21')
 timesOrg = sorted(brasileirao)
-
 for cont, time in enumerate(timesOrg):
     print(f'{cont+1}ª: {brasileirao[cont]:-^49}')
 
+print('=-=' * 18)
+
+posicaoBragantino = brasileirao.index('Bragantino') + 1
+print(f'\n        O TIME BRAGANTINO ESTÁ NA POSIÇÃO {posicaoBragantino}')
