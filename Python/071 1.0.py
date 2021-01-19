@@ -85,6 +85,3 @@ while True:
         print(f'\n Retirando {quant20} nota(s) de R$20,00' if quant20>0 else '', end='')
         print(f'\n Retirando {quant50} nota(s) de R$50,00' if quant50>0 else '', end='\n')
         
-        
-
-
