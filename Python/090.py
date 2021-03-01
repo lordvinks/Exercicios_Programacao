@@ -1,5 +1,6 @@
 print('\033[36;40mExercício Python #090 - Dicionário em Python\033[m')
 
+
 aluno = dict()
 print('=-=' * 10)
 
