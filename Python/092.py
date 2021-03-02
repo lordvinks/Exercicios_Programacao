@@ -14,7 +14,7 @@ print('=-=' * 15)
 
 if pessoa['Carteira de Trabalho'] != 0:
     pessoa['Ano da Contratacao'] = int(input('Ano de Contratação: '))
-    pessoa['Salario'] = float(input('Salário: R$'))
+    pessoa['Salario: R$'] = float(input('Salário: R$'))
     pessoa['Idade da Aposentadoria'] = pessoa['Idade'] + ((pessoa['Ano da Contratacao'] + 35) - datetime.now().year)
 
 # output
