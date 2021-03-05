@@ -1,5 +1,4 @@
 from random import choice
-from time import sleep
 
 def sortearNumero(numeros):
     numerosSorteados = list()
