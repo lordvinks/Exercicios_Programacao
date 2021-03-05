@@ -53,7 +53,7 @@ while True:
 
         for a in range(0, 3):
             sleep(0.6)
-            print('.', end='')
+            print('.', end='', flush=True)
         break
 
     else:
