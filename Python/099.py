@@ -16,7 +16,9 @@ def maiorValor(* num):
 
     print(f'\nForam informados {cont} ao todo\nO maior deles é o valor {maior}')
 
-        
+
+print('\033[36;40mExercício Python #099​ - Função que descobre o maior\033[m\n')
+       
 maiorValor(2, 9, 4, 5, 7, 1)
 maiorValor(4, 7, 0)
 maiorValor(1, 2)
