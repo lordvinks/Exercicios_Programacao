@@ -20,6 +20,8 @@ def ficha(nome='(nome não definido)', gols=0):
     print(f'O jogador {nome} fez {gols} no campeonato') 
 
 
+print('\033[36;40mExercício Python #103​ - Ficha do Jogador\033[m')
+
 while True:
     print('=-=' * 15)
     ficha(str(input('Nome do jogador: ').strip().capitalize()), str(input('Quantidade de gol(s): ')).strip())
