@@ -1,13 +1,25 @@
+c = ['\033[m', '\033[0;30;41m', '\033[0;30;42m', '\033[0;30;42m']
+def ajuda(com):
+    help(com)
+
+def titulo(msg, cor=0 ):
+    tam = len(msg) + 4
+    print(c[cor], end='')
+    print('~' * tam)
+    print(f'  {msg}')
+    print('~' * tam)
+    print(c[0], end='')
+
+
+comando = ''
 while True:
-    print('\033[1;42m~~~' * 10)
-    print('\033[1;42m  SISTEMA DE AJUDA PyHELP     ')
-    print('~~~' * 10)
+    titulo('SISTEMA DE AJUDA PyHELP', 1)
 
-    escolhaUser = str(input('\033[mFunção ou Biblioteca > ')).strip()
-
-    if escolhaUser.lower() == 'fim':
-        print('\033[1;41m~~~' * 10)
-        print('           Até logo           ')
-        print('\033[1;41m~~~' * 10)
-        print('\033[m')
+    comando = str(input('Função ou Biblioteca > '))
+    if comando.upper() == 'FIM':
         break
+    else:
+        ajuda(comando)
+
+titulo('ATÉ LOGO ')
+      
